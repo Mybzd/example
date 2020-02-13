@@ -8,3 +8,20 @@ If you're reporting that Atom crashed, include a crash report with a stack trace
 If the problem is related to performance or memory, include a CPU profile capture with your report.
 If Chrome's developer tools pane is shown without you triggering it, that normally means that you have a syntax error in one of your themes or in your styles.less. Try running in Safe Mode and using a different theme or comment out the contents of your styles.less to see if that fixes the problem.
 If the problem wasn't triggered by a specific action, describe what you were doing before the problem happened and share more information using the guidelines below.
+
+Consider starting the commit message with an applicable emoji:
+🎨 :art: when improving the format/structure of the code
+🐎 :racehorse: when improving performance
+🚱 :non-potable_water: when plugging memory leaks
+📝 :memo: when writing docs
+🐧 :penguin: when fixing something on Linux
+🍎 :apple: when fixing something on macOS
+🏁 :checkered_flag: when fixing something on Windows
+🐛 :bug: when fixing a bug
+🔥 :fire: when removing code or files
+💚 :green_heart: when fixing the CI build
+✅ :white_check_mark: when adding tests
+🔒 :lock: when dealing with security
+⬆️ :arrow_up: when upgrading dependencies
+⬇️ :arrow_down: when downgrading dependencies
+👕 :shirt: when removing linter warnings
